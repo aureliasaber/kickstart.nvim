@@ -43,7 +43,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/tokyonight',
+  require 'themes/tokyonight',
 
   require 'kickstart/plugins/todo-comments',
 
