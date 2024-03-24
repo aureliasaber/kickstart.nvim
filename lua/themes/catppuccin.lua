@@ -13,6 +13,11 @@ return {
       integrations = { -- Enable integrations for installed plugins
         cmp = true,
         gitsigns = true,
+        indent_blankline = {
+          enabled = true,
+          scope_color = 'pink',
+          colored_indent_levels = false,
+        },
         mason = true,
         mini = {
           enabled = true,
